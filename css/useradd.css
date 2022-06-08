@@ -1,0 +1,60 @@
+.formbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    font-size: 1.8em;
+    width: 100%;
+}
+
+.blad{
+    max-width: 80%;
+    line-height: 1em;
+    margin-left: 10%;
+}
+
+form{
+    width: 100%;
+}
+
+.box{
+    width: 55vw;
+    margin-left: 22.5vw;
+    height: 80vh;
+}
+
+.text{
+    width: 80%;
+}
+
+.text:hover{
+    transform: scale(1.1);
+}
+.text:focus{
+    transform: scale(1.1);
+}
+.leftrej{
+    text-align: center;
+    line-height: 1.8em;
+    width: 45%;
+}
+
+.leftrej span{
+    color: red;
+}
+
+.title{
+    height: 10vh;
+}
+
+.leftrej:last-child{
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    padding-bottom: 5%;
+    border-radius: 3vh;
+}
+
+.leftrej p{
+    font-size: 1.1em;
+}
